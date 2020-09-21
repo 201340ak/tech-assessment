@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hRq5LE32FM5X20XYCn9zH+W2k6hUaPkSWKpnIm6CVZsfcU30JAo76QWHUCTUWUaRxWUvJSo8Dmlgrubv+hq6vg==",
+  "dgSpecHash": "cn2UQmw8ctJUkIkPCetfHlxBzxo2cPb1P/l9xwCXx6A9BrS6i5BwMhucIEJmXkrqUEJrNbhU6AO1kkQ2MKwYww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wassi\\Documents\\Sogeti\\tech-assessment\\CSharp\\CSharp.csproj",
+  "projectFilePath": "C:\\Repositories\\tech-assessment\\CSharp\\CSharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

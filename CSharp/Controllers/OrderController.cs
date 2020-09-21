@@ -10,7 +10,7 @@ namespace CSharp.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-	public class Test : ControllerBase
+	public class OrderController : ControllerBase
 	{ 
 		[HttpGet]
 		public string Get()

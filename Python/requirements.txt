@@ -1,4 +1,0 @@
-Flask==1.1.1
-Flask-RESTX==0.1.1
-werkzeug==0.16.1
-pytest==5.3.5
