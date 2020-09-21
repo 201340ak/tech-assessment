@@ -7,10 +7,12 @@ namespace CSharp.Managers
     {
         List<Order> GetOrders();
 
-        List<Order> GetOrdersByCustomerId(int v);
+        List<Order> GetOrdersByCustomerId(int customerId);
 
         Order UpdateOrder(int orderId, Order order);
-        
+
         Order CancelOrder(int orderId);
+
+        Order Create(Order order);
     }
 }

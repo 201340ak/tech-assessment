@@ -152,6 +152,28 @@ namespace ControllerTests
             Assert.NotNull(updatedOrder);
             Assert.Equal(Status.Cancelled, updatedOrder.Status);
         }
+        
+        [Fact]
+        public void OrderController_CreateOrder_ShouldReturnNewOrder()
+        {
+            // Arrange
+            var orderManager = new Mock<IOrderManager>(MockBehavior.Strict);
+            orderManager.Setup(manager => manager.Create(It.IsAny<Order>()))
+                .Returns((Order order) => order);
+
+            var controller = new OrderController(orderManager.Object);
+
+            // Act
+            var orderResult = controller.Create(new Order{
+                Customer = Customer2
+            });
+
+            // Assert
+            Assert.NotNull(orderResult);
+            Assert.True(orderResult.Result is OkObjectResult);
+            var orders  = (orderResult.Result as OkObjectResult).Value as Order;
+            Assert.NotNull(orders);
+        }
 
         private Customer Customer1 => new Customer
         {

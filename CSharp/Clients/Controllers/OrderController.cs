@@ -20,7 +20,28 @@ namespace CSharp.Controllers
 
 		private IOrderManager OrderManager { get; }
 
+		[HttpPost]
+		public ActionResult<Order> Create(Order order)
+		{
+			try
+			{
+				var createdOrder = OrderManager.Create(order);
+				if(createdOrder == null)
+				{
+					return NotFound();
+				}
+
+				return Ok(createdOrder);
+			}
+			catch
+			{
+				// Log / Exception Handler
+				return BadRequest();
+			}
+		}
+
 		[HttpGet]
+		[Route("GetAll")]
 		public ActionResult<List<Order>> Get()
 		{
 			try
@@ -60,7 +81,7 @@ namespace CSharp.Controllers
 			}
 		}
 
-		[HttpGet]
+		[HttpPut]
 		public ActionResult<Order> UpdateOrder(int orderId, Order updatedOrder)
 		{
 			try
@@ -80,7 +101,7 @@ namespace CSharp.Controllers
 			}
 		}
 
-		[HttpGet]
+		[HttpPut]
 		public ActionResult<List<Order>> CancelOrder(int orderId)
 		{
 			try
