@@ -1,0 +1,12 @@
+C:\Repositories\tech-assessment\CSharp\Managers\bin\Debug\netstandard2.0\Managers.deps.json
+C:\Repositories\tech-assessment\CSharp\Managers\bin\Debug\netstandard2.0\Managers.dll
+C:\Repositories\tech-assessment\CSharp\Managers\bin\Debug\netstandard2.0\Managers.pdb
+C:\Repositories\tech-assessment\CSharp\Managers\bin\Debug\netstandard2.0\Contracts.dll
+C:\Repositories\tech-assessment\CSharp\Managers\bin\Debug\netstandard2.0\Contracts.pdb
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.csprojAssemblyReference.cache
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.AssemblyInfoInputs.cache
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.AssemblyInfo.cs
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.csproj.CoreCompileInputs.cache
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.csproj.CopyComplete
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.dll
+C:\Repositories\tech-assessment\CSharp\Managers\obj\Debug\netstandard2.0\Managers.pdb

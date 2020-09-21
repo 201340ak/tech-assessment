@@ -1,0 +1,9 @@
+C:\Repositories\tech-assessment\CSharp\Contracts\bin\Debug\netstandard2.0\Contracts.deps.json
+C:\Repositories\tech-assessment\CSharp\Contracts\bin\Debug\netstandard2.0\Contracts.dll
+C:\Repositories\tech-assessment\CSharp\Contracts\bin\Debug\netstandard2.0\Contracts.pdb
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.csprojAssemblyReference.cache
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfoInputs.cache
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfo.cs
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.dll
+C:\Repositories\tech-assessment\CSharp\Contracts\obj\Debug\netstandard2.0\Contracts.pdb
